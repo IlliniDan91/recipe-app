@@ -30,24 +30,26 @@ A modern web application for creating, storing, and managing recipes. Built with
 
 1. Clone the repository:
 
-cd recipe-app
+   cd recipe-app
 
-2. Install dependencies:
+1. Install dependencies:
 
-npm install
+   npm install
 
-3. Create a `.env` file in the backend directory with your MongoDB connection string:
+1. Create a `.env` file in the backend directory with your MongoDB connection string:
 
-MONGODB_URI=your_mongodb_connection_string
-PORT=5000
+   MONGODB_URI=your_mongodb_connection_string
+   PORT=5000
 
-4. Start the development servers:
+1. Start the development servers:
 
-# Start backend server (from backend directory)
-npm start
+   ```bash
+   # Start backend server (from backend directory)
+   npm start
 
-# Start frontend development server (from frontend directory)
-npm start
+   # Start frontend development server (from frontend directory)
+   npm start
+   ```
 
 The application will be available at `http://localhost:3000`
 
@@ -95,4 +97,3 @@ Project Link: [https://github.com/your-username/recipe-app](https://github.com/y
 - Material-UI for the component library
 - React team for the amazing framework
 - All contributors who help improve this project
-
