@@ -1,0 +1,15 @@
+mkdir recipe-app
+cd recipe-app
+mkdir frontend backend 
+cd frontend
+rm -rf * # Remove any existing files in the frontend directory
+npx create-react-app .
+npm install axios react-router-dom @mui/material @emotion/react @emotion/styled @mui/icons-material 
+cd backend
+npm install
+npm run dev 
+cd frontend
+npm install
+npm start 
+cd frontend/src
+mkdir components pages data 
